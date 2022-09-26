@@ -21,13 +21,20 @@ twitter accounts user have been following and give a score of how these accounts
 3 - Map data from APIs into classes, lists, variables and saved the 2 most important variables: Twitter username (screenName) and Twitter uid (id_str) into Cloud Firestore for each user from GET followers/ids. Map GET statuses/user_timeline + GET statuses/user_mentions into required body for Botometer API and connect to Rapid API via HTTP POST method. Map the response.json and get the bot_Score we want. Load the botScore with the important variables into database. The app is constantly reading from the user's database and generate tabs with their info and bot Score for every following account.
 
 ### Testing and Result / Images
-* The Login Home Page
+* The Login Page
+* ![The Login Page](https://github.com/BostonUniversitySeniorDesign/TwitterAccountChecker/blob/main/README_images/login_page.png)
 * Request Authorization from Twitter
+* ![Request Authorization from Twitter](https://github.com/BostonUniversitySeniorDesign/TwitterAccountChecker/blob/main/README_images/twitter_auth.png)
 * The Main Home Screen
+* ![The Main Home Screen](https://github.com/BostonUniversitySeniorDesign/TwitterAccountChecker/blob/main/README_images/main_home.png)
 * The Accounts following on Twitter
+* ![The Accounts following on Twitter](https://github.com/BostonUniversitySeniorDesign/TwitterAccountChecker/blob/main/README_images/my_following.png)
 * The BotoMeter Web scores on following accounts
+* ![The BotoMeter Web scores on following accounts](https://github.com/BostonUniversitySeniorDesign/TwitterAccountChecker/blob/main/README_images/botometer.png)
 * Firebase authentication
+* ![Firebase authentication](https://github.com/BostonUniversitySeniorDesign/TwitterAccountChecker/blob/main/README_images/firebase_auth.png)
 * Cloud Firestore Database
+* ![Cloud Firestore Database](https://github.com/BostonUniversitySeniorDesign/TwitterAccountChecker/blob/main/README_images/cloud_firestore.png)
 
 ### Install requirements
 Since the IOS xcodeproj, PODFILE and Android .gradle is too large to be submitted to Github, here is the tutorial to install the application
